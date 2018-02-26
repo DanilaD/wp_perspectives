@@ -1,0 +1,406 @@
+.navbar{
+  margin-bottom:0;
+  border:none;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+
+
+.navbar-brand-white a, .navbar-brand-white .navbar-nav>li>a,
+.navbar-brand-white .navbar-inverse {
+  color:#ffffff;
+}
+
+.navbar-brand-white .navbar-brand {
+  color:#ffffff!important;
+}
+
+
+.navbar-brand-white a:hover, .navbar-brand-white a:focus,
+.navbar-brand-white .navbar-nav>li>a:hover, .navbar-inverse .navbar-link a:hover,
+.navbar-brand-white .navbar-nav>li>a:focus, .navbar-inverse .navbar-link a:focus,
+{
+  color:#cdcbcb;
+}
+
+.hero{
+  background:url(../../assets/img/Perspectives_header.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+  padding:0px;
+  margin:0px;
+  filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -ms-filter:grayscale(100%);
+  -o-filter:grayscale(100%);
+}
+
+.hero .get-it{
+  text-align:left;
+  margin-top:20%;
+  background-color:#ffffff;
+  padding:30px 30px;
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#000000;
+  margin: 30px 0 20px;
+}
+
+.hero .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+.hero-single a, .hero-single p, .hero-single h1{
+  color:#ffffff;
+}
+
+
+.hero-single a:hover, .hero-single a:focus {
+  color:#cdcbcb;
+}
+
+.hero-single {
+  background:url(../../assets/img/Perspectives_detail.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+  padding:0px;
+  margin:0px;
+  filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -ms-filter:grayscale(100%);
+  -o-filter:grayscale(100%);
+}
+
+.hero-single .get-it{
+  text-align:left;
+  margin-top:20%;
+  background-color:#ffffff;
+  padding:30px 30px;
+}
+
+@media (max-width:992px) {
+  .hero-single .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero-single .get-it h1, .hero .get-it p{
+  color:#000000;
+  margin: 30px 0 20px;
+}
+
+.hero-single .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  padding:0;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  margin:10rem auto;
+  padding:0;
+  -moz-column-width:22em;
+  -webkit-column-width:22em;
+  -moz-column-gap:0;
+  -webkit-column-gap:0;
+}
+
+.site-footer{
+  padding:0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+.social-top {
+  position: absolute;
+  display: grid;
+  padding: 10px 5px;
+  right: 0;
+  top: 35%;
+  border: 2px solid white;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+span.text-muted.visible-lg-block{
+  padding:10px 0px 0px 0px;
+}
+
+div#height.row{
+  padding:100px 0 30px 0;
+}
+
+@media screen and (min-width:768px) {
+  .jumbotron h1, .jumbotron .h1{
+    font-size:100px;
+  }
+}
+
+.navbar-brand{
+  float:left;
+  padding:15px 15px;
+  font-size:18px;
+  line-height:20px;
+  height:50px;
+}
+
+body{
+  font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:20px;
+  line-height:1.42857143;
+  color:#010101;
+  background-color:#ffffff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+  color:#070707;
+  background-color:#fbfbfb;
+}
+
+.jumbotron{
+  #padding-top:30px;
+  padding-bottom:0;
+  margin-bottom:0;
+  color:inherit;
+  background-color:#ffffff;
+}
+
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:10px;
+  border:0;
+  background-color: transparent;
+}
+
+.jumbotron{
+  border:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+p#category{
+  font-weight:500;
+}
+
+p#name{
+  font-weight:600;
+  font-size:larger;
+}
+
+p#description{
+  font-weight:500;
+}
+
+div{
+}
+
+div#st{
+  display:inline-block;
+  width:100%;
+}
+
+div#left.col-sm-6.col-xs-12{
+  background:#ababab;
+  padding: 7rem;
+  text-align: center;
+}
+
+div#right.col-sm-6.col-xs-12{
+  background:#454545;
+  padding: 7rem;
+  text-align: center;
+}
+
+div#left-nav{
+  background:#2b2b2b;
+  padding: 5rem 10rem;
+}
+
+div#left-nav p, div#right-nav p {
+  color: #d3d3d3;
+}
+
+.row {
+  margin: 0;
+}
+
+div#right-nav{
+  background:#717171;
+  padding: 5rem 10rem;
+}
+
+div#right-nav  a:hover, a:focus, div#left-nav a:hover, a:focus {
+  color: #e2e2e2;
+  text-decoration: underline;
+}
+
+div#right-nav a, div#left-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+img.img-responsive{
+}
+
+p{
+  color: #000000;
+  margin: 5rem 0px 5rem;
+  font-weight: 200;
+}
+
+.container.article {
+  margin-left: auto;
+  max-width: 760px;
+  padding-bottom: 5rem;
+}
+
+.related {
+  padding: 0 1rem;
+}
+
+blockquote {
+  margin: 0 -15%;
+  border: 0;
+  font-size: xx-large;
+}
+
+blockquote strong {
+  font-size: medium;
+}
+
+blockquote em {
+  font-size: medium;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+@media (max-width:992px) {
+  blockquote {
+    margin: 0;
+  }
+}
+
+.podcast {
+  height: 5rem;
+  background: #adadad;
+}
+
+article {
+  margin-top: 5rem;
+}
